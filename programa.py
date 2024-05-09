@@ -52,7 +52,7 @@ def main():
     ventana.geometry("300x200")  
     centrar_ventana(ventana)  
 
-    imagen = Image.open("logo.jpg")
+    imagen = Image.open("src/img/logo.jpg")
     imagen = imagen.resize((32, 32))  
     icono = ImageTk.PhotoImage(imagen)
     ventana.iconphoto(True, icono)
